@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="dashboard">
+    <nav id="nav">
+    <div class="brand">
+        <img src="./img/logo.png" alt="Logo">
+        <div class="flex">
+            <h3>CodeAnt AI</h3>
+            <i class="fa fa-bars" id="open" onclick ="showMenu()"></i>
+            <i class="fa fa-times" id="close" onclick ="hideMenu()"></i> 
+        </div>
+        </div>
+    <ul id="check-menu">
+        <select>
+            <option>UtkarshDhairyPanwar</option>
+            <option>UtkarshDhairyPanwar</option>
+            <option>UtkarshDhairyPanwar</option>
+        </select>
+        <li class="active"><a href="#"><i class="fa fa-house"></i>Repositories</a></li>
+        <li><a href="#"><i class="fa fa-code"></i>AI Code Review</a></li>
+        <li><a href="#"><i class="fa fa-cloud"></i>Cloud Security</a></li>
+        <li><a href="#"><i class="fa fa-book"></i>How to Use</a></li>
+        <li><a href="#"><i class="fa fa-gear"></i>Settings</a></li>
+        <div class="down">
+        <li><a href="#"><i class="fa fa-phone"></i>Support</a></li>
+        <li><a href="#"><i class="fa fa-sign-out"></i>Logout</a></li>
+    </div>
+    </ul>
+</nav>
+
+<div class="repoCon" id="repo-con">
+    <div class="repoTop">
+        <div class="repoTop-row">
+            <h3>Repositories</h3>
+            <span>33 total repositories</span>
+        </div>
+        <div class="repo-buttons">
+           <button class="trans-btn"><i class="fa fa-refresh"></i> Refresh AI</button>
+           <button class="blue-btn"> + Add Repository</button>
+        </div>
+    </div>
+    <div class="repoSearch">
+    <i class="fa fa-search"></i>
+    <input type="text" name="search" id="search" placeholder="Search Repositories">
+</div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>design-system</h4>
+        <button>Public</button>
+    </div>
+    <div class="repoInfo">
+        <div>React <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 7320 KB</p>
+        <p>Upadted 1 day ago</p>
+    </div>
+    </div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>codeant-ci-app</h4>
+        <button>Private</button>
+    </div>
+    <div class="repoInfo">
+        <div>Javascript <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 5871 KB</p>
+        <p>Upadted 2 days ago</p>
+    </div>
+    </div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>analytics-dashboard</h4>
+        <button>Private</button>
+    </div>
+    <div class="repoInfo">
+        <div>Python <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 4521 KB</p>
+        <p>Upadted 5 days ago</p>
+    </div>
+    </div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>mobile-app</h4>
+        <button>Public</button>
+    </div>
+    <div class="repoInfo">
+        <div>Swift <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 3096 KB</p>
+        <p>Upadted 3 days ago</p>
+    </div>
+    </div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>e-commerce-platform</h4>
+        <button>Private</button>
+    </div>
+    <div class="repoInfo">
+        <div>Java <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 6210 KB</p>
+        <p>Upadted 6 days ago</p>
+    </div>
+    </div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>blog-website</h4>
+        <button>Public</button>
+    </div>
+    <div class="repoInfo">
+        <div>HTML/CSS <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 1876 KB</p>
+        <p>Upadted 4 days ago</p>
+    </div>
+    </div>
+    <hr>
+    <div class="repoDown">
+        <div class="repoName">
+        <h4>social-network</h4>
+        <button>Private</button>
+    </div>
+    <div class="repoInfo">
+        <div>PHP <div class="circle"></div></div>
+        <p><img src="./img/database.png" alt="database"> 5432 KB</p>
+        <p>Upadted 7 days ago</p>
+    </div>
+    </div>
+</div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
